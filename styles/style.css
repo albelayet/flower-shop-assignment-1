@@ -62,7 +62,7 @@ body {
 /* header style end here */
 main {
     /* max-width: 1440px; */
-    padding: 0 240px;
+    /* padding: 0 240px; */
 }
 
 /* feature section style start here */
@@ -91,27 +91,28 @@ main {
     display: flex;
     gap: 25px;
     justify-content: space-around;
+    padding: 0 240px;
 }
 
 .img-1 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    width: 464px;
-    height: 538px;
+    width: 364px;
+    height: 438px;
 }
 
 .img-2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    width: 464px;
-    height: 538px;
+    width: 364px;
+    height: 438px;
 }
 
 .img-3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    width: 464px;
-    height: 538px;
+    width: 364px;
+    height: 438px;
 }
 
 .feature-img-1 p,
@@ -124,4 +125,31 @@ main {
     line-height: 35px;
     margin-top: 30px;
 }
-/*  */
+
+/* serveice section style start here */
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 240px;
+    margin-top: 120px;
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+padding: 80px 80px;
+}
+.service-container{
+    justify-content: center;
+}
+.service-img{
+    justify-content: center;
+    position: right;
+}
+.service-info{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+}
