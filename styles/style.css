@@ -210,3 +210,36 @@ body {
     width: 300px;
     height: 350px;
 }
+
+/* latest section style here */
+
+.latest-section {
+    justify-content: center;
+    max-width: 1280px;
+    background-image: url('Rectangle\ 9.png');
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+
+}
+
+#latest-title {
+    padding-top: 100px;
+}
+
+#latest-info {
+    padding-top: 20px;
+}
+
+#latest-mail {
+    width: 700px;
+    height: 64px;
+    margin-left: 220px;
+}
+
+.latest-section input {
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 50px;
+}
