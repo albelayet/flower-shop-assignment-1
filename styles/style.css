@@ -60,10 +60,7 @@ body {
 }
 
 /* header style end here */
-main {
-    /* max-width: 1440px; */
-    /* padding: 0 240px; */
-}
+
 
 /* feature section style start here */
 .section-content {
@@ -181,7 +178,8 @@ main {
     margin: auto;
     text-align: center;
 }
-.offer-title span{
+
+.offer-title span {
     color: #E55473;
 }
 
@@ -195,6 +193,20 @@ main {
     padding: 30px 100px;
 }
 
-#offer-btn{
+#offer-btn {
     margin-left: 300px;
+}
+
+/* start instra section style here */
+
+.instra-img-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    padding: 50px 240px;
+}
+
+.instra-img {
+    width: 300px;
+    height: 350px;
 }
