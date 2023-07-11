@@ -127,32 +127,20 @@ body {
 
 .service {
     display: flex;
-    justify-content: space-between;
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
-    margin: 0 240px;
-    margin-top: 100px;
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
-    padding: 60px 80px;
-}
-
-.service-img {
-    justify-content: center;
-    width: 88px;
-    height: 88px;
-    margin-left: 50px;
-
+    justify-content: space-around;
+    background-color: rgba(39, 39, 39, 0.05);
+    text-align: center;
+    padding: 80px;
+    margin: 120px 200px;
 }
 
 .service-info {
     color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
     font-size: 24px;
     font-weight: 600;
-    line-height: 35px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    padding-top: 30px;
 }
 
 /* start offer style here */
@@ -199,11 +187,15 @@ body {
 
 /* start instra section style here */
 
+.instra-section {
+    padding-top: 120px;
+}
+
 .instra-img-container {
     display: flex;
     justify-content: space-around;
     gap: 24px;
-    padding: 50px 240px;
+    padding: 0 240px;
 }
 
 .instra-img {
@@ -246,33 +238,36 @@ body {
 
 /* footer section here */
 
-.footer{
+.footer {
     background: #111010;
 }
 
-.footer-title{
+.footer-title {
     color: rgb(255, 255, 255);
-font-size: 48px;
-font-weight: 800;
-text-align: center;
-padding-top: 100px;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
 }
-.footer-title span{
+
+.footer-title span {
     color: #E55473;
 }
-.footer-info{
+
+.footer-info {
     color: rgba(255, 255, 255, 0.90);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-padding: 30px 420px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 30px 420px;
 }
-.btm-text{
+
+.btm-text {
     color: rgba(255, 255, 255, 0.90);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-padding-bottom: 120px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 120px;
 }
